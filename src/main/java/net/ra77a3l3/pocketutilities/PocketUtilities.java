@@ -51,6 +51,7 @@ public class PocketUtilities {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MOD_ITEM); // Now the MOD_ITEM is present in the creative tab
+            event.accept(ModItems.RAW_MOD_ITEM);
         }
     }
 
