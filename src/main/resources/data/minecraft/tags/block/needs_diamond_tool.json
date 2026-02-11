@@ -1,0 +1,8 @@
+{
+  "comment": "This allows these block to be mined with a diamond pickaxe or better",
+  "replace": false,
+  "values": [
+    "pocketutilities:example_block_ore",
+    "pocketutilities:example_block_deepslate_ore"
+  ]
+}

@@ -3,7 +3,8 @@
   "item.pocketutilities.example_item_raw": "Example Item Raw",
 
   "block.pocketutilities.example_block": "Example Block",
-  "block.pocketutilities.example_block_raw": "Example Block Raw",
+  "block.pocketutilities.example_block_ore": "Example Block Ore",
+  "block.pocketutilities.example_block_deepslate_ore": "Example Block Deepslate Ore",
 
   "creativetab.pocketutilities.example_items": "Example Items Tab",
   "creativetab.pocketutilities.example_blocks": "Example Blocks Tab"

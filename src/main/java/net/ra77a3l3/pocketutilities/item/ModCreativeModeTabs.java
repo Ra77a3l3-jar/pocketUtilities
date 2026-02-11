@@ -36,7 +36,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.pocketutilities.example_blocks"))
                     .displayItems((ItemDisplayParameters, output) -> {
                         output.accept(ModBlocks.EXAMPLE_BLOCK);
-                        output.accept(ModBlocks.EXAMPLE_BLOCK_RAW);
+                        output.accept(ModBlocks.EXAMPLE_BLOCK_ORE);
+                        output.accept(ModBlocks.EXAMPLE_BLOCK_DEEPSLATE_ORE);
                     })
                     .build());
 

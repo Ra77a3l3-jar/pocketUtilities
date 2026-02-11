@@ -1,0 +1,7 @@
+{
+  "comment": "This allows these block to be mined with a iron pickaxe or better",
+  "replace": false,
+  "values": [
+    "pocketutilities:example_block",
+  ]
+}

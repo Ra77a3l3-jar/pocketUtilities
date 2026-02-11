@@ -1,0 +1,9 @@
+{
+  "comment": "This allows these block to be mined with a pickaxe (no other tool will work).",
+  "replace": false,
+  "values": [
+    "pocketutilities:example_block",
+    "pocketutilities:example_block_ore",
+    "pocketutilities:example_block_deepslate_ore"
+  ]
+}

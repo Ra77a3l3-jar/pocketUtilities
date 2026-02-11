@@ -5,7 +5,7 @@
   "experience": 0.25,
   "group": "example_item",
   "ingredient": {
-    "item": "pocketutilities:example_block_raw"
+    "item": "pocketutilities:example_block_ore"
   },
   "result": {
     "count": 1,

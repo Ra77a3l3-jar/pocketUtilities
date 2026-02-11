@@ -26,12 +26,20 @@ public class ModBlocks {
                     .sound(SoundType.AMETHYST)
             ));
 
-    public static final DeferredBlock<Block> EXAMPLE_BLOCK_RAW = registerBlock("example_block_raw",
+    public static final DeferredBlock<Block> EXAMPLE_BLOCK_ORE = registerBlock("example_block_ore",
             () -> new DropExperienceBlock(UniformInt.of(0, 2),
                     BlockBehaviour.Properties.of()
                     .strength(1F)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.ANVIL)
+                    .sound(SoundType.STONE)
+            ));
+
+    public static final DeferredBlock<Block> EXAMPLE_BLOCK_DEEPSLATE_ORE = registerBlock("example_block_deepslate_ore",
+            () -> new DropExperienceBlock(UniformInt.of(0, 2),
+                    BlockBehaviour.Properties.of()
+                            .strength(2F)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.DEEPSLATE)
             ));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

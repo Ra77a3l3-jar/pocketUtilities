@@ -60,7 +60,8 @@ public class PocketUtilities {
 
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.EXAMPLE_BLOCK);
-            event.accept(ModBlocks.EXAMPLE_BLOCK_RAW);
+            event.accept(ModBlocks.EXAMPLE_BLOCK_ORE);
+            event.accept(ModBlocks.EXAMPLE_BLOCK_DEEPSLATE_ORE);
         }
     }
 
