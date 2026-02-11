@@ -10,8 +10,11 @@ public class ModItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PocketUtilities.MOD_ID);
 
-    public static final DeferredItem<Item> ENGINEER_NOTEBOOK = ITEMS.register("engineer_notebook",
-            () -> new EngineerNotebookItem(new Item.Properties()));
+    public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.register("example_item",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> EXAMPLE_ITEM_RAW = ITEMS.register("example_item_raw",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

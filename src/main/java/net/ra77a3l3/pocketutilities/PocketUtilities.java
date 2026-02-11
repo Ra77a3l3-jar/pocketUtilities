@@ -2,6 +2,7 @@ package net.ra77a3l3.pocketutilities;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.ra77a3l3.pocketutilities.block.ModBlocks;
 import net.ra77a3l3.pocketutilities.item.ModItems;
 import org.slf4j.Logger;
 
@@ -35,6 +36,7 @@ public class PocketUtilities {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -50,7 +52,13 @@ public class PocketUtilities {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.ENGINEER_NOTEBOOK);
+            event.accept(ModItems.EXAMPLE_ITEM);
+            event.accept(ModItems.EXAMPLE_ITEM_RAW);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.EXAMPLE_BLOCK);
+            event.accept(ModBlocks.EXAMPLE_BLOCK_RAW);
         }
     }
 

@@ -1,3 +1,7 @@
 {
-  "item.pocketutilities.engineer_notebook": "Engineer Notebook"
+  "item.pocketutilities.example_item": "Example Item",
+  "item.pocketutilities.example_item_raw": "Example Item Raw",
+
+  "block.pocketutilities.example_block": "Example Block",
+  "block.pocketutilities.example_block_raw": "Example Block Raw"
 }
