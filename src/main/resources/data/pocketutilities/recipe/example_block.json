@@ -1,0 +1,19 @@
+{
+  "_comment": "Recipe to get example block from example items",
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "pocketutilities:example_item"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pocketutilities:example_block"
+  }
+}

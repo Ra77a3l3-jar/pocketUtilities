@@ -1,0 +1,14 @@
+{
+  "_comment": "Recipe to get example items from example block",
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+        "item": "pocketutilities:example_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "pocketutilities:example_item"
+  }
+}

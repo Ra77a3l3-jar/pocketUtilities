@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "example_item",
+  "ingredient": {
+    "item": "pocketutilities:example_item_raw"
+  },
+  "result": {
+    "count": 1,
+    "id": "pocketutilities:example_item"
+  }
+}
