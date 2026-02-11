@@ -1,8 +1,8 @@
 package net.ra77a3l3.pocketutilities;
 
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.ra77a3l3.pocketutilities.block.ModBlocks;
+import net.ra77a3l3.pocketutilities.item.ModCreativeModeTabs;
 import net.ra77a3l3.pocketutilities.item.ModItems;
 import org.slf4j.Logger;
 
@@ -34,6 +34,8 @@ public class PocketUtilities {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
