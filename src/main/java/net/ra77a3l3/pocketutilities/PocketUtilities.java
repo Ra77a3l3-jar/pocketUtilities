@@ -53,16 +53,6 @@ public class PocketUtilities {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.EXAMPLE_ITEM);
-            event.accept(ModItems.EXAMPLE_ITEM_RAW);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.EXAMPLE_BLOCK);
-            event.accept(ModBlocks.EXAMPLE_BLOCK_ORE);
-            event.accept(ModBlocks.EXAMPLE_BLOCK_DEEPSLATE_ORE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -1,6 +1,7 @@
 {
   "item.pocketutilities.example_item": "Example Item",
   "item.pocketutilities.example_item_raw": "Example Item Raw",
+  "item.pocketutilities.chisel": "Chisel",
 
   "block.pocketutilities.example_block": "Example Block",
   "block.pocketutilities.example_block_ore": "Example Block Ore",
